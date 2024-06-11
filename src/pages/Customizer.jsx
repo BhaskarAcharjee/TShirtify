@@ -7,12 +7,7 @@ import { download } from "../assets";
 import { downloadCanvasToImage, reader } from "../config/helpers";
 import { EditorTabs, FilterTabs, DecalTypes } from "../config/constants";
 import { fadeAnimation, slideAnimation } from "../config/motion";
-import {
-  ColorPicker,
-  CustomButton,
-  FilePicker,
-  Tab,
-} from "../components";
+import { ColorPicker, CustomButton, FilePicker, Tab } from "../components";
 
 const Customizer = () => {
   const snap = useSnapshot(state);
@@ -125,7 +120,7 @@ filter tab. It takes a `tabName` parameter, which represents the name of the sel
               customStyles="w-fit px-4 py-2.5 font-bold text-sm"
             />
           </motion.div>
-          
+
           {/* filter tabs */}
           <motion.div
             className="filtertabs-container"
@@ -148,7 +143,6 @@ filter tab. It takes a `tabName` parameter, which represents the name of the sel
                 className="w-3/5 h-3/5 object-contain"
               />
             </button>
-
           </motion.div>
         </>
       )}

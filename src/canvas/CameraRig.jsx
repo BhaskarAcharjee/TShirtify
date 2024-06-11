@@ -42,7 +42,7 @@ position and rotation of a 3D model in a React component. */
     easing.dampE(
       group.current.rotation,
       [state.pointer.y / 7, -state.pointer.x / 2, 0],
-      0.20,
+      0.2,
       delta
     );
   });
