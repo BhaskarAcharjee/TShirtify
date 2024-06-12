@@ -1,62 +1,77 @@
-# Customizable T-Shirt Design with three.js
+# TShirtify
 
-Welcome to the Customizable T-Shirt Design project! This interactive web application allows users to create their own unique t-shirt designs by selecting different colors and uploading logo files. The project is built using the powerful three.js library for 3D rendering.
+![tshirtify_logo1](https://github.com/BhaskarAcharjee/TShirtify/assets/76872572/df19c89a-a61f-4f70-88d4-2191ba96f504)
+
+**TShirtify** is an AI-powered 3D T-shirt design simulator that allows users to create and visualize unique T-shirt designs in a virtual environment. Leveraging advanced AI and 3D rendering technologies, TShirtify provides a seamless and interactive experience for both casual users and professional designers.
+
+## Snapshot
+![016cf09b-09ff-4817-b5fd-90104abfe0e7](https://github.com/BhaskarAcharjee/TShirtify/assets/76872572/86b9521a-b969-4b6a-83b1-29f4ba06394f)
+
+## Live Link : [TShirtify](https://tshirtify.vercel.app)
 
 ## Features
 
-- Choose from a variety of t-shirt colors.
-- Upload your own logo or design to be displayed on the t-shirt.
-- Preview your custom design in a 3D interactive environment.
-- Realistic lighting and shading effects powered by three.js.
+- **AI-Powered Design Suggestions**: Generate unique T-shirt designs using AI algorithms.
+- **3D Visualization**: View and manipulate your T-shirt designs in a 3D environment.
+- **Customizable Options**: Customize colors, patterns, and graphics to create your perfect T-shirt.
+- **Real-Time Rendering**: Experience real-time updates as you tweak your designs.
+- **User-Friendly Interface**: Easy-to-use interface for both beginners and experts.
+- **Export Options**: Export your designs for printing or sharing.
 
-## Demo
+## Tech Stack
 
-<!-- ![T-Shirt.js example](./public/demo.png) -->
+- **Frontend**: React, Vite
+- **Backend**: Node.js, Express
+- **AI Services**: Dall-E AI Model
+- **3D Rendering**: Three.js
+- **Deployment**: Vercel
 
-Check out the live demo of the Customizable T-Shirt Design application: [Demo](https://threejs-t-shirt.vercel.app/).
+## Installation
 
-## Technologies Used
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/BhaskarAcharjee/tshirtify.git
+   cd tshirtify
+   ```
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [@react-three/drei](https://github.com/pmndrs/drei)
-- [@react-three/fiber](https://github.com/pmndrs/react-three-fiber)
-- [Framer Motion](https://www.framer.com/motion/)
-- [maath](https://github.com/gre/gl-matrix)
-- [react-color](https://casesandberg.github.io/react-color/)
-- [three.js](https://threejs.org/)
-- [valtio](https://github.com/pmndrs/valtio)
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
 
-## Getting Started
+3. **Start the development server**
+   ```sh
+   npm run dev
+   ```
 
-To run this project locally:
+4. **Open your browser**
+   Navigate to `http://localhost:3000` to see the application in action.
 
-1. Clone this repository: `git clone https://github.com/your-username/customizable-tshirt.git`
-2. Navigate to the project directory: `cd customizable-tshirt`
-3. Install dependencies: `npm install`
-4. Run development server: `npm run dev`
-5. Open your web browser and visit `http://localhost:5173/`.
+## Usage
 
-## Scripts
+1. **Design Your T-Shirt**
+   - Choose a T-shirt template.
+   - Use the AI-powered design suggestions or create your own design.
+   - Customize the design with various tools and options.
 
-- `dev`: Start the development server.
-- `build`: Build the production-ready bundle.
-- `lint`: Run ESLint with specific rules for code quality.
-- `preview`: Preview the production build locally.
+2. **View in 3D**
+   - Rotate, zoom, and pan the 3D model to view your design from different angles.
+   - Make adjustments as needed for the perfect look.
+
+3. **Export Your Design**
+   - Save your design as an image file.
+   - Share your design on social media or with friends.
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
+We welcome contributions from the community! To contribute:
 
-## Credits
-
-- This project was developed using the three.js library (https://threejs.org/).
-- Design by Anderson Mancini, Paul Henschel.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Have fun customizing your t-shirt designs and exploring the world of three.js, React, and Vite! If you have any questions or need assistance, feel free to contact us or open an issue.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
